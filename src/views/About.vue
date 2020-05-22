@@ -1,5 +1,18 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <RandomDog />
   </div>
 </template>
+
+<script>
+// @ is an alias to /src
+import RandomDog from "@/components/RandomDog.vue";
+
+export default {
+  name: "About",
+  components: {
+    RandomDog
+  }
+};
+</script>
+
